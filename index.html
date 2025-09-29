@@ -16,15 +16,35 @@
 		<style>
 		/* Modern Minimal Portfolio Theme */
 		:root {
-		  --text-primary: #0a0a0a;
-		  --text-secondary: #525252;
-		  --text-tertiary: #a3a3a3;
-		  --accent: #2563eb;
+		  /* Professional Industrial Engineering Color Scheme */
+
+		  /* Primary Brand Colors */
+		  --primary-red: #E31937;
+		  --light-red: #F87171;
+		  --tesla-red: #E31937;
+
+		  /* Professional Secondary Colors */
+		  --steel-blue: #475569;
+		  --charcoal: #374151;
+		  --sage-green: #059669;
+		  --warm-amber: #F59E0B;
+
+		  /* Main Accent (replaces conflicting blue) */
+		  --accent: #475569;
+
+		  /* Text Colors */
+		  --text-primary: #1F2937;
+		  --text-secondary: #6B7280;
+		  --text-tertiary: #9CA3AF;
+
+		  /* Background Colors */
 		  --bg-primary: #ffffff;
-		  --bg-secondary: #fafafa;
-		  --bg-tertiary: #f5f5f5;
-		  --border: #e5e5e5;
-		  --border-light: #f0f0f0;
+		  --bg-secondary: #F9FAFB;
+		  --bg-tertiary: #F3F4F6;
+
+		  /* Border Colors */
+		  --border: #E5E7EB;
+		  --border-light: #F3F4F6;
 		}
 
 		body {
@@ -394,7 +414,7 @@
 
 		.metric-label {
 		  font-size: 0.7rem;
-		  color: #999;
+		  color: var(--text-tertiary);
 		  text-transform: uppercase;
 		  letter-spacing: 1px;
 		  margin-top: 0.25rem;
@@ -402,7 +422,7 @@
 		}
 
 		.project-description {
-		  color: #777;
+		  color: var(--text-secondary);
 		  font-size: 0.9rem;
 		  line-height: 1.8;
 		  margin-bottom: 1.5rem;
@@ -419,7 +439,7 @@
 		  padding: 0.2rem 0.6rem;
 		  border: 1px solid rgba(0,0,0,0.08);
 		  border-radius: 12px;
-		  color: #666;
+		  color: var(--text-secondary);
 		  background: transparent;
 		}
 		
@@ -653,7 +673,7 @@
 
       /* Retractable skills UI */
       .skills-category {
-        background: #fff;
+        background: var(--bg-primary);
         border: 1px solid rgba(0,0,0,0.06);
         border-radius: 12px;
         padding: 1rem 1.25rem;
@@ -710,7 +730,7 @@
 
       .skill-item {
         font-size: 0.85rem;
-        color: #444;
+        color: var(--text-primary);
         position: relative;
         padding-left: 0.5rem;
         transition: color 0.2s ease;
@@ -746,7 +766,7 @@
 		}
 
 		.impact-metrics .metric, .project-metrics .metric {
-		  background: linear-gradient(135deg, #00A1E0 0%, #1589EE 100%);
+		  background: linear-gradient(135deg, var(--steel-blue) 0%, var(--charcoal) 100%);
 		  color: white;
 		  padding: 0.4rem 0.8rem;
 		  border-radius: 20px;
@@ -783,7 +803,7 @@
       .hero-metrics .metric-value {
         font-size: 1.1rem; /* mobile */
         font-weight: 700;
-        color: #00A1E0;
+        color: var(--primary-red);
         line-height: 1.1;
       }
 
@@ -797,9 +817,9 @@
 
 		/* Enhanced Highlight for Achievements */
 		.publication-card .highlight {
-		  color: #00A1E0;
+		  color: var(--primary-red);
 		  font-weight: 600;
-		  background: rgba(0, 161, 224, 0.05);
+		  background: rgba(227, 25, 55, 0.08);
 		  padding: 0.1rem 0.3rem;
 		  border-radius: 3px;
 		}
@@ -820,7 +840,7 @@
 		}
 
 		#education header.major h2 {
-		  color: #333;
+		  color: var(--text-primary);
 		  font-size: 1.2rem;
 		  font-weight: 400;
 		  letter-spacing: 1px;
@@ -880,7 +900,7 @@
 		.edu-degree {
 		  font-size: 0.95rem;
 		  font-weight: 450;
-		  color: #333;
+		  color: var(--text-primary);
 		  margin-bottom: 0.2rem;
 		  letter-spacing: -0.1px;
 		}
@@ -888,7 +908,7 @@
 		.edu-institution {
 		  font-size: 0.85rem;
 		  font-weight: 300;
-		  color: #666;
+		  color: var(--text-secondary);
 		  letter-spacing: 0;
 		}
 
@@ -1099,7 +1119,7 @@
 		.category-btn {
 		  background: rgba(0, 0, 0, 0.03);
 		  border: none;
-		  color: #666;
+		  color: var(--text-secondary);
 		  padding: 0.6rem 1.2rem;
 		  border-radius: 12px;
 		  font-weight: 400;

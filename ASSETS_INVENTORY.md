@@ -1,4 +1,4 @@
-# Portfolio Assets Inventory for Deepak's Data Engineer Portfolio
+# Portfolio Assets Inventory for Arjun's Industrial Engineering Portfolio
 
 ## Summary
 Successfully downloaded and prepared 20 high-quality assets for the data engineering portfolio, totaling 5.4MB of optimized images. All assets are ready for production use with proper licensing.
@@ -63,7 +63,7 @@ Successfully downloaded and prepared 20 high-quality assets for the data enginee
 5. Recommended display size: 64px-256px for logos, 400px-800px for visualizations
 
 ## File Locations
-All assets are located in: `/Users/kushagrasikka/Desktop/Businesses/Portfolio_website_for_clients/Deepak/images/`
+Note: This inventory reflects the current repo under `images/` and `assets/` for Arjun. Paths are relative within the repository.
 
 ## Next Steps
 1. Replace visualization placeholders with actual project screenshots when available

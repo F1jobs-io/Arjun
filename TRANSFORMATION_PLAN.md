@@ -1,7 +1,7 @@
-# Deepak Rambarki - Data Engineer Portfolio Transformation Plan
+# Arjun Prasad - Industrial Engineering Portfolio Plan (archived)
 
 ## 📋 Overview
-Complete transformation of portfolio website from Salesforce Administrator (Ramani Mahidara) to Data Engineer (Deepak Rambarki).
+Note: This document was used for a prior transformation effort and is kept for reference. The live site and content now represent Arjun Prasad.
 
 **Current Status:** Research Complete ✅ | Implementation Ready 🚀  
 **Timeline:** 2-3 days  
