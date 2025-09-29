@@ -7,7 +7,7 @@ set -euo pipefail
 # - GitHub CLI installed: https://cli.github.com/
 # - Run: gh auth login   (or export GH_TOKEN and run: echo "$GH_TOKEN" | gh auth login --with-token)
 
-REPO_NAME_DEFAULT="deepak-rambarki.github.io"
+REPO_NAME_DEFAULT="Arjun"
 
 echo ":: GitHub Pages deployment script ::"
 
@@ -17,20 +17,20 @@ if ! command -v gh >/dev/null 2>&1; then
   exit 1
 fi
 
-# Detect user if possible
+# Detect default owner (your user) and allow overriding with an org (e.g., F1jobs-io)
 USER_LOGIN=$(gh api user -q '.login' 2>/dev/null || echo "")
 
-read -r -p "GitHub username [${USER_LOGIN:-enter-user}]: " GH_USER_INPUT || true
-GH_USER=${GH_USER_INPUT:-$USER_LOGIN}
-if [[ -z "$GH_USER" ]]; then
-  echo "Error: GitHub username is required." >&2
+read -r -p "GitHub owner (user or org) [${USER_LOGIN:-enter-owner}]: " GH_OWNER_INPUT || true
+GH_OWNER=${GH_OWNER_INPUT:-$USER_LOGIN}
+if [[ -z "$GH_OWNER" ]]; then
+  echo "Error: GitHub owner is required (your user or org name)." >&2
   exit 1
 fi
 
 read -r -p "Repository name [${REPO_NAME_DEFAULT}]: " REPO_INPUT || true
 REPO_NAME=${REPO_INPUT:-$REPO_NAME_DEFAULT}
 
-echo "Using repo: $GH_USER/$REPO_NAME"
+echo "Using repo: $GH_OWNER/$REPO_NAME"
 
 # Initialize git repo if needed
 if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
@@ -58,22 +58,32 @@ if git remote get-url origin >/dev/null 2>&1; then
 else
   echo "Creating repo on GitHub and pushing..."
   # Attempt to create repo; if it exists, just add remote and push
-  if gh repo view "$GH_USER/$REPO_NAME" >/dev/null 2>&1; then
+  if gh repo view "$GH_OWNER/$REPO_NAME" >/dev/null 2>&1; then
     echo "Repository already exists. Adding remote..."
-    git remote add origin "https://github.com/$GH_USER/$REPO_NAME.git"
+    git remote add origin "https://github.com/$GH_OWNER/$REPO_NAME.git"
     git push -u origin main
   else
-    gh repo create "$GH_USER/$REPO_NAME" --public --source . --remote origin --push
+    # Create under a user or org owner
+    gh repo create "$REPO_NAME" --public --source . --remote origin --push --owner "$GH_OWNER"
   fi
 fi
 
 echo
 echo "Push complete. GitHub Actions will deploy to Pages automatically."
 echo "Next steps:"
-echo "  1) Open: https://github.com/$GH_USER/$REPO_NAME/actions and watch 'Deploy to GitHub Pages' run."
-echo "  2) Set custom domain (if desired): Repo → Settings → Pages → Custom domain: deepakrambarki.com"
+echo "  1) Open: https://github.com/$GH_OWNER/$REPO_NAME/actions and watch 'Deploy to GitHub Pages' run."
+DOMAIN=""
+if [[ -f CNAME ]]; then
+  DOMAIN=$(cat CNAME | tr -d '\n' || true)
+fi
+if [[ -n "$DOMAIN" ]]; then
+  echo "  2) Set custom domain (optional): Repo → Settings → Pages → Custom domain: $DOMAIN"
+else
+  echo "  2) (Optional) Add a CNAME file with your custom domain if you have one."
+fi
 echo "  3) Enable 'Enforce HTTPS' once the certificate is issued."
 echo
-echo "If you haven't already, configure DNS for deepakrambarki.com to point to GitHub Pages."
-echo "See README_DEPLOY.md for the exact DNS records."
-
+if [[ -n "$DOMAIN" ]]; then
+  echo "If you haven't already, configure DNS for $DOMAIN to point to GitHub Pages."
+fi
+echo "See README_DEPLOY.md for the exact DNS records and org setup."

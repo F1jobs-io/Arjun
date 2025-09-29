@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Deepak Rambarki - Senior Data Engineer</title>
+		<title>Arjun Prasad - Industrial Engineering Graduate</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -121,6 +121,8 @@
         display: none;
         align-items: center;
         justify-content: center;
+        flex-direction: column; /* stack bars vertically */
+        gap: 5px; /* spacing between bars */
         width: 44px;
         height: 44px;
         border: none;
@@ -129,6 +131,25 @@
         transition: background 0.2s ease, transform 0.2s ease;
         margin-left: 0.25rem;
         border-radius: 8px;
+        /* Override template's global button styles */
+        box-shadow: none !important;
+        color: inherit;
+        text-transform: none;
+        letter-spacing: normal;
+        padding: 0;
+        -webkit-appearance: none;
+        appearance: none;
+      }
+
+      /* Ensure no red border/box-shadow in any state (mobile) */
+      .mobile-menu-toggle:hover,
+      .mobile-menu-toggle:active,
+      .mobile-menu-toggle:focus,
+      .mobile-menu-toggle:focus-visible {
+        box-shadow: none !important;
+        border: none !important;
+        background: rgba(0,0,0,0.04);
+        outline: none;
       }
 
       .mobile-menu-toggle:hover {
@@ -141,12 +162,12 @@
         width: 22px;
         height: 2px;
         background: var(--text-primary);
-        border-radius: 2px;
+        border-radius: 1px;
         transition: transform 0.2s ease, opacity 0.2s ease;
         display: block;
       }
 
-      .mobile-menu-toggle span + span { margin-top: 5px; }
+      .mobile-menu-toggle span + span { margin-top: 0; }
 
       .mobile-menu-toggle[aria-expanded="true"] span:nth-child(1) {
         transform: translateY(7px) rotate(45deg);
@@ -656,7 +677,7 @@
       .skills-icon {
         width: 28px;
         height: 28px;
-        color: var(--primary-red);
+        color: var(--text-secondary);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -668,20 +689,21 @@
       }
 
       .skills-toggle {
-        background: transparent;
-        border: 1px solid var(--primary-red);
-        color: var(--primary-red);
+        background: rgba(0,0,0,0.03);
+        border: 1px solid var(--border);
+        color: var(--text-secondary);
         border-radius: 16px;
         padding: 0.25rem 0.6rem;
         font-size: 0.75rem;
-        font-weight: 600;
+        font-weight: 500;
         cursor: pointer;
-        transition: all 0.2s ease;
+        transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
       }
 
       .skills-toggle:hover {
-        background: var(--primary-red);
-        color: #fff;
+        background: rgba(0,0,0,0.06);
+        color: var(--text-primary);
+        border-color: var(--text-primary);
       }
 
       .skill-item.hidden { display: none; }
@@ -694,13 +716,13 @@
         transition: color 0.2s ease;
       }
 
-		.skill-item::before {
-		  content: '·';
-		  position: absolute;
-		  left: 0;
-		  color: var(--primary-red);
-		  opacity: 0.3;
-		}
+      .skill-item::before {
+        content: '·';
+        position: absolute;
+        left: 0;
+        color: var(--text-tertiary);
+        opacity: 0.6;
+      }
 
 		.skill-item:hover {
 		  color: var(--primary-red);
@@ -948,9 +970,11 @@
 		    top: 0;
 		  }
 
-		  .mobile-menu-toggle {
-		    display: flex;
-		  }
+          .mobile-menu-toggle {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+          }
 
 		  .nav-menu {
 		    display: none;

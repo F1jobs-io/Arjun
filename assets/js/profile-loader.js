@@ -219,7 +219,7 @@
         if (!container || !publications) return;
 
         container.innerHTML = '';
-        
+
         publications.forEach(pub => {
             const article = createPublicationCard(pub);
             container.appendChild(article);

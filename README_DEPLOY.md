@@ -1,6 +1,12 @@
 Deployment Guide — GitHub Pages
 
-This repo is ready to deploy as a static site to GitHub Pages using the included GitHub Actions workflow. Follow these steps to publish it under your GitHub account.
+This repo is ready to deploy as a static site to GitHub Pages using the included GitHub Actions workflow. Follow these steps to publish it under your GitHub account or the F1jobs-io organization.
+
+F1jobs-io quick start (org repo)
+- Create a repo under the org (example: `Arjun`): https://github.com/F1jobs-io
+- Set `origin` to `https://github.com/F1jobs-io/Arjun.git` and push `main`
+- In Settings → Pages, set Source to “GitHub Actions”
+- (Optional) Custom domain is read from `CNAME` (currently `arjunprasad.com`); configure DNS and enable HTTPS
 
 What’s included
 - .github/workflows/deploy-pages.yml — Deploys the static site on every push to the main branch.
@@ -43,14 +49,13 @@ Using a Personal Access Token (PAT)
 Enable GitHub Pages
 1. In your repository on GitHub: Settings → Pages.
 2. Under “Build and deployment”, set Source to “GitHub Actions”.
-3. The included workflow (.github/workflows/deploy-pages.yml) will publish automatically on push to main.
+3. The included workflow (`.github/workflows/deploy-pages.yml`) will publish automatically on push to `main` (both user and org repos).
 
 Custom domain (optional)
-- This repo currently contains a CNAME file with a placeholder domain. Before your first deploy:
-  - If you don’t want a custom domain yet: delete the CNAME file.
-  - If you do: replace its content with your domain (e.g., deepak-rambarki.com).
-- Configure your DNS: create a CNAME record for your domain pointing to <your-username>.github.io.
-- In Settings → Pages, add your custom domain and enable “Enforce HTTPS” after the certificate is issued.
+- This repo contains a `CNAME` file. If present, GitHub Pages will publish with that domain.
+  - Current value: `arjunprasad.com` (change if needed, or delete `CNAME` to skip).
+- Configure DNS: create a CNAME record for your domain pointing to `<your-username>.github.io` (user) or `<org>.github.io` (org).
+- In Settings → Pages, add the custom domain and enable “Enforce HTTPS” after the certificate is issued.
 
 Verifying the deployment
 1. Go to the Actions tab and open the “Deploy to GitHub Pages” workflow run.
@@ -60,12 +65,20 @@ Verifying the deployment
    - Project site: https://<your-username>.github.io/<repo-name>
 
 Notes & Tips
-- This site is static (no build step), so the workflow uploads the repository root as the artifact.
-- Paths are relative (e.g., assets/...); they work for both user and project sites.
-- If you change the default branch name, update the workflow trigger branches in deploy-pages.yml.
-- For SEO polish, consider adding robots.txt, sitemap.xml, and meta tags.
+- Static site (no build): the workflow uploads the repository root as the artifact.
+- Paths use relative URLs (e.g., `assets/...`); they work for both user and project sites.
+- If you change the default branch name, update the workflow trigger branches in `deploy-pages.yml`.
+- For SEO polish, consider adding `robots.txt`, `sitemap.xml`, and meta tags.
+
+Org repos with GitHub CLI
+You can also use the helper script to push under an org:
+
+```
+bash scripts/deploy_github_pages.sh
+# When prompted for owner, enter: F1jobs-io
+# When prompted for repo, enter: Arjun (or your preferred repo name)
+```
 
 Rollback / disable Pages
 - Settings → Pages → Set Source to “Disabled”.
 - To fully remove a published site, delete the gh-pages environment in Settings → Environments.
-

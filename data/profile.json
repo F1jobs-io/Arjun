@@ -1,29 +1,29 @@
 {
   "profile": {
-    "name": "Deepak Rambarki",
-    "title": "Senior Data Engineer",
-    "organization": "Charles Schwab | 4+ Years Experience | Denton, TX",
-    "profileImage": "assets/PIC.jpg",
-    "cvPath": "assets/Deepak_DE_Resume.pdf",
+    "name": "Arjun Prasad",
+    "title": "Industrial Engineering Graduate",
+    "organization": "Tesla & Zeiss Experience | Process Optimization Specialist | Arlington, TX",
+    "profileImage": "assets/arjun_profile.jpg",
+    "cvPath": "assets/Arjun_Prasad_Resume.pdf",
     "metrics": [
-      "4+ Years Experience",
-      "30TB+ Data Migrated",
-      "40% Query Latency Reduction",
-      "95% Deployment Error Reduction"
+      "80% Cycle Time Reduction",
+      "30+ Customer Demos",
+      "100% SAP Alignment",
+      "Available on OPT/STEM"
     ]
   },
   
   "bio": {
-    "introduction": "<span class=\"highlight\">Experienced Data Engineer</span> with <span class=\"highlight\">4+ years of expertise</span> designing scalable data pipelines and analytics solutions across <span class=\"highlight\">finance and tech sectors</span>. Skilled in <span class=\"highlight\">Python, SQL, Spark, Kafka</span>, and cloud platforms (AWS, Azure) to enable <span class=\"highlight\">real-time and batch processing</span>.",
-    "background": "Proven ability to optimize data architecture, improve data quality, and support advanced analytics and ML initiatives through robust engineering practices. Expert in <span class=\"highlight\">Apache Spark, PySpark, and Kafka</span> for high-throughput data processing, with extensive experience in <span class=\"highlight\">AWS and Azure cloud platforms</span> for scalable data solutions.",
-    "researchFocus": "Specialized in building <span class=\"highlight\">real-time trading data pipelines</span> with sub-2-second latency, <span class=\"highlight\">multi-cloud ETL architectures</span>, and automated compliance reporting systems. Demonstrated success in <span class=\"highlight\">reducing processing times by 60%</span>, <span class=\"highlight\">cutting deployment errors by 95%</span>, and <span class=\"highlight\">improving data accuracy by 35%</span> through advanced engineering practices and cross-functional collaboration."
+    "introduction": "<span class=\"highlight\">Manufacturing Engineering Graduate</span> with proven <span class=\"highlight\">automation expertise at Tesla</span> and precision engineering experience at <span class=\"highlight\">Carl Zeiss</span>. Specialized in <span class=\"highlight\">process optimization, Lean Six Sigma methodologies</span>, and advanced CAD design. <span class=\"highlight\">Immediately available on OPT</span> with 3-year work authorization - no sponsorship required.",
+    "background": "Demonstrated ability to streamline manufacturing processes, optimize supply chain workflows, and implement automation solutions. Expert in <span class=\"highlight\">SolidWorks, CATIA V5, and Ansys</span> for complex design and simulation, with hands-on experience in <span class=\"highlight\">reverse engineering and quality solutions</span> across automotive and precision manufacturing sectors.",
+    "researchFocus": "Focused on <span class=\"highlight\">manufacturing automation and process improvement</span> with quantified results including <span class=\"highlight\">80% reduction in project completion time</span>, <span class=\"highlight\">30% increase in testing success rates</span>, and <span class=\"highlight\">100% customer alignment in SAP ERP</span>. Proven track record in cross-functional collaboration, technical training, and customer-facing engineering solutions."
   },
   
   "contact": {
-    "email": "deepakrambarki@gmail.com",
-    "phone": "+1 (940) 277-6441",
-    "location": "Denton, TX",
-    "linkedin": "https://www.linkedin.com/in/rambarki-deepak/",
+    "email": "arjunprasad0421@gmail.com",
+    "phone": "(682) 374-6295",
+    "location": "Arlington, TX",
+    "linkedin": "https://www.linkedin.com/in/arjun-p-7079bba0/",
     "github": null,
     "googleScholar": null,
     "twitter": null,
@@ -37,17 +37,17 @@
     {"label": "Projects", "href": "#projects"},
     {"label": "Skills", "href": "#skills"},
     {"label": "Education", "href": "#education"},
-    {"label": "Contact", "href": "mailto:deepakrambarki@gmail.com"}
+    {"label": "Contact", "href": "mailto:arjunprasad0421@gmail.com"}
   ],
   
   "publications": [
     {
-      "id": "charles-schwab",
-      "title": "Data Engineer",
-      "authors": "Charles Schwab | USA",
-      "venue": "Dec 2024 - Present",
-      "description": "<div class='impact-metrics'><span class='metric'>12+ Real-time Pipelines</span><span class='metric'>&lt;2s Market Data Latency</span><span class='metric'>30TB+ Data Migrated</span><span class='metric'>40% Query Latency Reduction</span></div><br/><strong>Key Achievements:</strong><br/>• <strong>Built 12+ real-time data pipelines</strong> using Apache Kafka and Spark Structured Streaming to support high-frequency trading, <span class='highlight'>reducing market data ingestion latency to under 2 seconds</span> across equities and options processing systems<br/>• <strong>Migrated over 30TB of legacy trading and transaction data</strong> to AWS S3 and Redshift, <span class='highlight'>achieving a 40% reduction in query latency</span> and cutting monthly infrastructure costs<br/>• <strong>Created automated ETL workflows</strong> in Apache Airflow for risk and compliance reporting, <span class='highlight'>improving on-time report delivery across 10 regulatory submission processes</span><br/>• <strong>Engineered dimensional models</strong> for investment performance reporting in Power BI, <span class='highlight'>supporting 100+ financial advisors with near real-time updates</span> and reducing ad-hoc data requests<br/>• <strong>Integrated Spark-based enrichment logic</strong> into batch pipelines to validate trading transactions, <span class='highlight'>increasing data accuracy by 35%</span> while maintaining pipeline execution times under SLA thresholds<br/>• <strong>Enforced access policies</strong> with AWS IAM and audit logging for internal and third-party data consumers, <span class='highlight'>fully aligning with SOX, GDPR, and internal data governance standards</span>",
-      "image": "images/charles-schwab-logo.png",
+      "id": "tesla-intern",
+      "title": "Engineering Intern",
+      "authors": "Tesla | Grand Rapids, MI",
+      "venue": "May 2023 - August 2023",
+      "description": "<div class='impact-metrics'><span class='metric'>80% Cycle Time Reduction</span><span class='metric'>Cross-Functional Optimization</span><span class='metric'>CATIA V5 Design</span><span class='metric'>FMEA Implementation</span></div><br/><strong>Key Achievements:</strong><br/>• <strong>Interned with the Automation Development and Tool Engineering team</strong>, focusing on process optimization and efficiency improvements for manufacturing operations<br/>• <strong>Streamlined cross-functional supply chain workflows</strong>, <span class='highlight'>achieving 80% reduction in average project completion time through reverse engineering</span> and systematic process analysis<br/>• <strong>Applied FMEA and root cause analysis</strong> to identify bottlenecks in tooling and material handling processes, <span class='highlight'>improving reliability and reducing downtime</span> across production lines<br/>• <strong>Developed intricate designs for production station components</strong>, specifically focusing on dies and idle tables through <span class='highlight'>proficient use of CATIA V5 CAD software</span><br/>• <strong>Established consistent channels of communication</strong> with supervisors and team members, <span class='highlight'>delivering detailed weekly updates on project milestones, challenges encountered, and strategic adjustments</span> enhancing overall workflow efficiency across engineering teams<br/>• <strong>Collaborated on automation initiatives</strong> that directly supported Tesla's manufacturing scale-up and production optimization goals",
+      "image": "images/tesla-logo.png",
       "links": {
         "paper": null,
         "github": null,
@@ -55,12 +55,12 @@
       }
     },
     {
-      "id": "adons-softech",
-      "title": "Data Engineer", 
-      "authors": "Adons Softech | USA",
-      "venue": "Jan 2022 - Jul 2023",
-      "description": "<div class='impact-metrics'><span class='metric'>40+ Data Sources Integrated</span><span class='metric'>60% Processing Time Reduction</span><span class='metric'>95% Deployment Error Reduction</span><span class='metric'>200M+ Records/Cycle</span></div><br/><strong>Key Achievements:</strong><br/>• <strong>Designed and implemented ETL pipelines</strong> in PySpark and Talend across 5 client environments, <span class='highlight'>integrating 40+ diverse data sources</span> including Salesforce, Oracle DB, and S3 into a centralized Snowflake warehouse<br/>• <strong>Re-engineered existing batch jobs</strong> to leverage Spark parallelism, <span class='highlight'>cutting daily data processing time by 60%</span> while handling workloads exceeding 200 million records per execution cycle<br/>• <strong>Created modular dbt models</strong> with test coverage and version control, <span class='highlight'>improving code reuse across teams</span> and reducing onboarding and documentation time for new engineers<br/>• <strong>Provisioned AWS infrastructure</strong> using Terraform with CI/CD workflows via GitLab, <span class='highlight'>reducing manual deployment errors by 95%</span> and ensuring consistent build environments across dev and production<br/>• <strong>Designed role-based access controls</strong> across Redshift and Snowflake environments, <span class='highlight'>aligning with ISO 27001 policies</span> and improving audit traceability across data lineage paths<br/>• <strong>Led weekly client syncs</strong> to define data SLAs, set transformation logic, and <span class='highlight'>finalize 20+ KPIs for executive dashboards</span> used by healthcare, fintech, and logistics clients",
-      "image": "images/adons-softech-logo.png", 
+      "id": "ut-arlington-research",
+      "title": "Research Assistant",
+      "authors": "University of Texas at Arlington Research Institute | Fort Worth, TX",
+      "venue": "January 2023 - May 2023",
+      "description": "<div class='impact-metrics'><span class='metric'>30% Testing Success Rate</span><span class='metric'>3D SolidWorks Modeling</span><span class='metric'>Ansys Simulation</span><span class='metric'>Manufacturing Coordination</span></div><br/><strong>Key Achievements:</strong><br/>• <strong>Developed detailed 3D models for the smart wheelchair cushion</strong>, <span class='highlight'>utilizing SolidWorks to streamline product design processes</span> and enable rapid prototyping and iteration<br/>• <strong>Simulated product performance in Ansys</strong> and optimized the smart cushion design through design iterations, <span class='highlight'>increasing testing success rates by 30%</span> through systematic performance analysis<br/>• <strong>Coordinated closely with manufacturing team</strong> to streamline the molding process for seat cushion cell production, <span class='highlight'>ensuring design feasibility and manufacturing efficiency</span><br/>• <strong>Applied advanced CAD techniques</strong> for complex medical device geometry, incorporating ergonomic considerations and material property requirements<br/>• <strong>Conducted design validation studies</strong> using finite element analysis to optimize pressure distribution and comfort characteristics<br/>• <strong>Collaborated with interdisciplinary research team</strong> including mechanical engineers, healthcare professionals, and manufacturing specialists to deliver innovative medical device solutions",
+      "image": "images/ut-arlington-logo.png",
       "links": {
         "paper": null,
         "github": null,
@@ -68,14 +68,14 @@
       }
     },
     {
-      "id": "cybage-software",
-      "title": "Data Analyst",
-      "authors": "Cybage Software | India", 
-      "venue": "Jan 2020 - Dec 2022",
-      "description": "<div class='impact-metrics'><span class='metric'>15+ E-commerce Platforms</span><span class='metric'>12% Conversion Rate Increase</span><span class='metric'>8 Hours Weekly Savings</span><span class='metric'>40% Error Reduction</span></div><br/><strong>Key Achievements:</strong><br/>• <strong>Analyzed clickstream data</strong> from over 15 e-commerce platforms using SQL and Python, <span class='highlight'>identifying user drop-off patterns and supporting marketing decisions that led to a 12% increase in average conversion rates</span><br/>• <strong>Developed interactive Tableau dashboards</strong> that visualized cross-regional customer behavior metrics for marketing teams, <span class='highlight'>directly impacting segmentation strategies across 6 APAC and North American business units</span><br/>• <strong>Automated Excel-based workflows</strong> using Python and Power BI, <span class='highlight'>cutting weekly manual reporting time by 8 hours</span> and improving report consistency across 3 internal departments<br/>• <strong>Built DAX-based data models</strong> in Power BI to track user churn and retention, <span class='highlight'>enabling product teams to test and validate feature changes with real-time data insights</span><br/>• <strong>Deployed data validation scripts</strong> to catch upstream anomalies in customer orders, <span class='highlight'>reducing transactional errors over a 3-month monitoring period</span><br/>• <strong>Defined and implemented data quality rules</strong> and anomaly checks using SQL for customer and inventory datasets, <span class='highlight'>resulting in a 40% decrease in reporting discrepancies</span>",
-      "image": "images/cybage-software-logo-new.png",
+      "id": "carl-zeiss",
+      "title": "Application Engineer",
+      "authors": "Carl Zeiss India Pvt Ltd | Bangalore, India",
+      "venue": "August 2021 - August 2022",
+      "description": "<div class='impact-metrics'><span class='metric'>20+ Reverse Engineering Projects</span><span class='metric'>30+ Customer Demos</span><span class='metric'>100% SAP Alignment</span><span class='metric'>Technical Training Lead</span></div><br/><strong>Key Achievements:</strong><br/>• <strong>Technical Specialist in reverse engineering applications</strong> within the Industrial Quality Solutions department, <span class='highlight'>developing expertise in advanced 3D scanning and metrology systems</span><br/>• <strong>Executed a portfolio of over 20 diverse reverse engineering tasks</strong> during employment with Carl Zeiss, <span class='highlight'>aligning output with customer demand in SAP ERP</span> and maintaining 100% project completion rate<br/>• <strong>Presented in-depth pre-sales demos</strong> for Zeiss Reverse Engineering software, <span class='highlight'>directly engaging with more than 30 prospective customers</span> and supporting business development initiatives<br/>• <strong>Enhanced technical proficiency by providing comprehensive training</strong> in Zeiss Reverse Engineering software to customers and new employees, <span class='highlight'>improving adoption rates and customer satisfaction</span><br/>• <strong>Interfaced with production and 3D scanner teams</strong> to minimize variation and improve inspection reliability, <span class='highlight'>optimizing quality control processes across manufacturing operations</span><br/>• <strong>Conducted regular reviews with clients</strong>, ensuring 100% alignment with customer demand in SAP ERP and <span class='highlight'>maintaining strong customer relationships and project delivery standards</span>",
+      "image": "images/carl-zeiss-logo.png",
       "links": {
-        "paper": null, 
+        "paper": null,
         "github": null,
         "status": null
       }
@@ -83,409 +83,315 @@
   ],
   
   "skills": {
-    "programming": [
-      "Python",
-      "Java", 
-      "Scala",
-      "SQL",
-      "JavaScript",
-      "Bash/Shell Scripting",
-      "DAX"
+    "processOptimization": [
+      "Lean Six Sigma Green Belt",
+      "Kaizen Implementation",
+      "Kanban Systems",
+      "5S Methodology",
+      "Process Mapping",
+      "Value Stream Mapping",
+      "Inventory Optimization",
+      "ERP Systems (SAP)"
     ],
-    "bigDataTechnologies": [
-      "Apache Spark",
-      "PySpark",
-      "Apache Kafka",
-      "Hadoop",
-      "Hive",
-      "Flume",
-      "HBase",
-      "Apache Flink"
+    "designSoftware": [
+      "SolidWorks (Advanced)",
+      "CATIA V5",
+      "Autodesk Fusion 360",
+      "Ansys Workbench",
+      "AutoCAD",
+      "Zeiss Reverse Engineering Software",
+      "GD&T (Geometric Dimensioning & Tolerancing)"
     ],
-    "cloudPlatforms": [
-      "AWS (S3, Redshift, Lambda, EC2, Glue)",
-      "Azure (Data Lake Storage, Synapse, Functions)",
-      "GCP (BigQuery)",
-      "Snowflake",
-      "Amazon Redshift"
+    "manufacturingQuality": [
+      "FMEA (Failure Mode and Effects Analysis)",
+      "Root Cause Analysis",
+      "Total Quality Management",
+      "Zeiss Inspect",
+      "Zeiss 3D Scanners",
+      "Reverse Engineering",
+      "Production Planning",
+      "Tooling Design"
     ],
-    "databases": [
-      "MySQL",
-      "PostgreSQL", 
-      "MongoDB",
-      "Cassandra",
-      "Oracle DB",
-      "Relational Databases"
+    "dataAnalytics": [
+      "Microsoft Power BI",
+      "Excel (Advanced)",
+      "Statistical Analysis",
+      "Hypothesis Testing (ANOVA)",
+      "Optimization Modeling",
+      "Manufacturing KPIs",
+      "OEE Calculations",
+      "Quality Metrics"
     ],
-    "dataWarehousing": [
-      "Snowflake",
-      "Amazon Redshift",
-      "Star Schema",
-      "Snowflake Schema",
-      "Dimensional Modeling"
+    "automationTechnology": [
+      "Industrial Automation",
+      "Process Control Systems",
+      "Material Handling",
+      "Production Line Optimization",
+      "Workflow Automation",
+      "Manufacturing Execution Systems",
+      "Cycle Time Analysis"
     ],
-    "dataProcessing": [
-      "Apache Spark",
-      "Apache Flink",
-      "PySpark"
+    "projectManagement": [
+      "Cross-Functional Collaboration",
+      "Technical Documentation",
+      "Customer Training",
+      "Pre-Sales Support",
+      "Project Planning",
+      "Stakeholder Communication",
+      "Team Leadership"
     ],
-    "etlTools": [
-      "Apache Airflow",
-      "Informatica",
-      "Talend",
-      "dbt"
+    "certifications": [
+      "Lean Six Sigma Green Belt",
+      "Manufacturing Certificate (UT Arlington)",
+      "Decision Analytics Certificate (UT Arlington)",
+      "Data Analytics Course using Power BI",
+      "AUKOM Level GD&T Training Series",
+      "Autodesk CAD/CAM/CAE for Mechanical Engineering"
     ],
-    "dataGovernance": [
-      "Data Validation",
-      "Data Cleansing",
-      "Databricks",
-      "Data Catalogs",
-      "IAM (AWS/GCP)",
-      "GDPR/CCPA Compliance"
-    ],
-    "versionControl": [
-      "Git",
-      "GitHub",
-      "Bitbucket",
-      "Jira",
-      "Confluence"
-    ],
-    "containerization": [
-      "Docker",
-      "Kubernetes (EKS/GKE)",
-      "Terraform",
-      "GitLab CI/CD",
-      "Jenkins",
-      "Travis CI"
-    ],
-    "monitoring": [
-      "Prometheus",
-      "Grafana",
-      "Splunk",
-      "ELK Stack",
-      "Elasticsearch"
-    ],
-    "methodologies": [
-      "Agile",
-      "Scrum",
-      "CI/CD",
-      "Continuous Delivery",
-      "Stakeholder Collaboration",
-      "Process Improvement"
-    ],
-    "visualization": [
-      "Tableau",
-      "Power BI",
-      "Tabular Models",
-      "Excel (Pivot Tables, Macros, VLOOKUP)"
-    ],
-    "softSkills": [
+    "professionalSkills": [
       "Problem Solving",
-      "Attention to Details",
-      "Best Practices",
-      "Troubleshooting",
-      "Code Review",
-      "Technical Documentation"
+      "Attention to Detail",
+      "Analytical Thinking",
+      "Technical Communication",
+      "Continuous Improvement",
+      "Customer Service",
+      "Training & Development",
+      "Process Documentation"
     ]
   },
   
   "projects": [
     {
-      "id": "nyc-property-analysis-capstone",
-      "title": "NYC Property Sale Price Analysis", 
-      "year": "2025",
-      "category": "academic",
-      "shortDescription": "Advanced ML capstone project analyzing 600K+ NYC property records with 82% prediction accuracy across 5 boroughs.",
-      "detailedDescription": "<div class='project-metrics'><span class='metric'>600K+ Records</span><span class='metric'>82% R² Accuracy</span><span class='metric'>5 NYC Boroughs</span><span class='metric'>Random Forest ML</span></div><br/>Comprehensive capstone project (ADTA 5940) analyzing NYC real estate market using advanced machine learning techniques. Processed 600,000+ property sales records, implementing sophisticated data cleaning pipelines to handle extreme outliers and missing values. Built Random Forest and Gradient Boosting models achieving 82% R² accuracy in price prediction. Conducted borough-specific analysis revealing Manhattan's unique market characteristics and developed feature engineering strategies including price-per-square-foot ratios and building age calculations. Research findings provide actionable insights for real estate investors, policymakers, and urban planners.",
+      "id": "tesla-automation-optimization",
+      "title": "Tesla Automation Development & Process Optimization",
+      "year": "2023",
+      "category": "professional",
+      "shortDescription": "Cross-functional supply chain workflow optimization achieving 80% reduction in project completion time through automation and reverse engineering.",
+      "detailedDescription": "<div class='project-metrics'><span class='metric'>80% Cycle Time Reduction</span><span class='metric'>CATIA V5 Design</span><span class='metric'>FMEA Implementation</span><span class='metric'>Production Optimization</span></div><br/>Comprehensive automation development project during Tesla internship focusing on manufacturing process optimization and efficiency improvements. Streamlined cross-functional supply chain workflows through systematic reverse engineering and process analysis. Applied FMEA methodology and root cause analysis to identify critical bottlenecks in tooling and material handling processes. Developed intricate designs for production station components including dies and idle tables using advanced CATIA V5 CAD software. Established robust communication channels for project milestone tracking and strategic workflow adjustments across engineering teams. Project directly supported Tesla's manufacturing scale-up and production optimization goals in EV manufacturing.",
       "media": {
         "type": "image",
-        "src": "images/nyc-property-analysis.png",
+        "src": "images/tesla-automation-process.png",
         "poster": null
       },
       "techStack": [
-        "Python",
-        "Pandas", 
-        "Scikit-learn",
-        "Random Forest",
-        "Gradient Boosting",
-        "Statistical Analysis",
-        "Data Visualization"
+        "CATIA V5",
+        "FMEA Analysis",
+        "Root Cause Analysis",
+        "Process Mapping",
+        "Reverse Engineering",
+        "Production Planning",
+        "Cross-Functional Collaboration"
       ],
       "metrics": [
-        {"value": "82%", "label": "R² Accuracy"},
-        {"value": "600K+", "label": "Records Processed"},
-        {"value": "5", "label": "Boroughs Analyzed"}
+        {"value": "80%", "label": "Cycle Time Reduction"},
+        {"value": "6 Months", "label": "Tesla Internship"},
+        {"value": "Multiple", "label": "Production Components"}
       ],
       "links": {
         "website": null,
         "github": null,
-        "details": "documents/academic/NYC_Property_Analysis_Capstone.docx"
+        "details": null
       },
-      "documentPath": "documents/academic/NYC_Property_Analysis_Capstone.docx",
+      "documentPath": null,
       "isExpandable": true
     },
     {
-      "id": "hotel-booking-analytics",
-      "title": "Hotel Booking Analytics & Customer Behavior",
-      "year": "2023", 
+      "id": "smart-wheelchair-cushion",
+      "title": "Smart Wheelchair Cushion Design & Performance Optimization",
+      "year": "2023",
       "category": "academic",
-      "shortDescription": "Team analytics project using ANOVA and regression models to analyze booking patterns and customer behavior optimization.",
-      "detailedDescription": "<div class='project-metrics'><span class='metric'>ANOVA Analysis</span><span class='metric'>Regression Models</span><span class='metric'>Team Project</span><span class='metric'>Customer Insights</span></div><br/>Collaborative team project (Group 15) analyzing hotel booking patterns to understand customer behavior and optimize pricing strategies. Implemented comprehensive EDA on booking data, conducting ANOVA tests to examine the effect of meal types on lead times and market segments on stay duration. Developed multiple regression models including linear regression for special requests prediction and logistic regression for cancellation likelihood (66% accuracy). Applied statistical techniques to identify seasonal trends, customer segmentation patterns, and operational insights for hotel management decision-making.",
+      "shortDescription": "Medical device R&D project utilizing SolidWorks 3D modeling and Ansys simulation achieving 30% increase in testing success rates.",
+      "detailedDescription": "<div class='project-metrics'><span class='metric'>30% Testing Success Rate</span><span class='metric'>3D SolidWorks Modeling</span><span class='metric'>Ansys Simulation</span><span class='metric'>Manufacturing Coordination</span></div><br/>Comprehensive medical device design project at UT Arlington Research Institute focusing on smart wheelchair cushion development. Developed detailed 3D models utilizing advanced SolidWorks techniques to streamline product design processes and enable rapid prototyping. Conducted extensive Ansys simulation studies to optimize cushion performance through iterative design improvements. Coordinated closely with manufacturing team to streamline molding processes for seat cushion cell production. Applied advanced CAD techniques for complex medical device geometry incorporating ergonomic considerations and material property requirements. Conducted design validation studies using finite element analysis to optimize pressure distribution and comfort characteristics.",
       "media": {
         "type": "image",
-        "src": "images/hotel-booking-analytics.png",
+        "src": "images/smart-wheelchair-cushion.png",
         "poster": null
       },
       "techStack": [
-        "Python",
-        "Pandas",
-        "ANOVA",
-        "Linear Regression", 
-        "Logistic Regression",
-        "Statistical Modeling",
-        "EDA"
+        "SolidWorks",
+        "Ansys Workbench",
+        "Finite Element Analysis",
+        "Medical Device Design",
+        "Manufacturing Coordination",
+        "Design Validation",
+        "Material Analysis"
       ],
       "metrics": [
-        {"value": "66%", "label": "Model Accuracy"},
-        {"value": "5", "label": "Team Members"},
-        {"value": "3", "label": "Statistical Models"}
+        {"value": "30%", "label": "Testing Success Increase"},
+        {"value": "5 Months", "label": "Research Duration"},
+        {"value": "Medical", "label": "Device Category"}
       ],
       "links": {
         "website": null,
         "github": null,
-        "details": "documents/academic/Hotel_Booking_Analytics_Final_Report.docx"
+        "details": null
       },
-      "documentPath": "documents/academic/Hotel_Booking_Analytics_Final_Report.docx", 
+      "documentPath": null,
       "isExpandable": true
     },
     {
-      "id": "student-performance-analysis",
-      "title": "Academic Performance Analysis by Gender & Discipline",
+      "id": "zeiss-reverse-engineering",
+      "title": "Zeiss Reverse Engineering & Quality Solutions Portfolio",
+      "year": "2022",
+      "category": "professional",
+      "shortDescription": "Industrial quality solutions portfolio managing 20+ reverse engineering projects with 100% SAP ERP alignment and customer training.",
+      "detailedDescription": "<div class='project-metrics'><span class='metric'>20+ Projects</span><span class='metric'>30+ Customer Demos</span><span class='metric'>100% SAP Alignment</span><span class='metric'>Technical Training</span></div><br/>Comprehensive reverse engineering portfolio at Carl Zeiss Industrial Quality Solutions department. Executed over 20 diverse reverse engineering tasks using advanced 3D scanning and metrology systems with complete alignment to customer demand in SAP ERP. Presented in-depth pre-sales demonstrations of Zeiss Reverse Engineering software to 30+ prospective customers, directly supporting business development initiatives. Provided comprehensive technical training to customers and new employees on Zeiss software platforms. Interfaced with production and 3D scanner teams to minimize variation and improve inspection reliability across manufacturing operations. Conducted regular client reviews ensuring project delivery standards and customer satisfaction.",
+      "media": {
+        "type": "image",
+        "src": "images/zeiss-reverse-engineering.png",
+        "poster": null
+      },
+      "techStack": [
+        "Zeiss Reverse Engineering Software",
+        "3D Scanning Technology",
+        "Zeiss Inspect",
+        "SAP ERP",
+        "Quality Control",
+        "Customer Training",
+        "Technical Documentation"
+      ],
+      "metrics": [
+        {"value": "20+", "label": "Projects Completed"},
+        {"value": "30+", "label": "Customer Demos"},
+        {"value": "100%", "label": "SAP Alignment"}
+      ],
+      "links": {
+        "website": null,
+        "github": null,
+        "details": null
+      },
+      "documentPath": null,
+      "isExpandable": true
+    },
+    {
+      "id": "manufacturing-dashboard",
+      "title": "Real-Time Manufacturing Analytics Dashboard",
       "year": "2024",
-      "category": "academic", 
-      "shortDescription": "Data analytics case study examining GPA correlations across academic disciplines with gender-based performance insights.",
-      "detailedDescription": "<div class='project-metrics'><span class='metric'>3 Academic Disciplines</span><span class='metric'>Gender Analysis</span><span class='metric'>GPA Correlation</span><span class='metric'>Data Visualization</span></div><br/>Individual case study project (ADTA 5820) analyzing academic performance patterns across Arts & Letters, Business & Economics, and Math & Science disciplines. Conducted comparative analysis revealing consistent female academic advantages across all fields, with Math & Science showing highest performance levels (3.71 GPA for females vs 3.54 for males). Developed insights for university admissions and student success programs, identifying Business & Economics as requiring targeted male student support initiatives. Created compelling data visualizations demonstrating the relationship between high school and college GPA performance by gender and discipline.",
+      "category": "portfolio",
+      "shortDescription": "Comprehensive Power BI dashboard for manufacturing KPI monitoring with OEE tracking, quality metrics, and production optimization.",
+      "detailedDescription": "<div class='project-metrics'><span class='metric'>Real-time KPI Tracking</span><span class='metric'>OEE Calculations</span><span class='metric'>Quality Metrics</span><span class='metric'>Production Analytics</span></div><br/>Advanced manufacturing analytics platform built with Power BI for comprehensive production monitoring and optimization. Implemented real-time KPI tracking systems for Overall Equipment Effectiveness (OEE) calculations, downtime analysis, and quality control metrics. Designed interactive dashboards for production managers enabling data-driven decision making and continuous improvement initiatives. Integrated multiple data sources including production lines, quality control systems, and maintenance schedules. Applied statistical analysis for trend identification and predictive maintenance insights. Dashboard supports lean manufacturing principles and provides actionable insights for cycle time reduction and efficiency improvements.",
       "media": {
-        "type": "image", 
-        "src": "images/student-performance-analysis.png",
+        "type": "image",
+        "src": "images/manufacturing-dashboard.png",
         "poster": null
       },
       "techStack": [
+        "Microsoft Power BI",
+        "Manufacturing KPIs",
+        "OEE Calculations",
         "Statistical Analysis",
         "Data Visualization",
-        "Performance Metrics",
-        "Comparative Analysis",
-        "Educational Data",
-        "Gender Studies"
-      ],
-      "metrics": [
-        {"value": "3", "label": "Disciplines Analyzed"},
-        {"value": "2", "label": "Gender Categories"},
-        {"value": "6", "label": "Performance Metrics"}
-      ],
-      "links": {
-        "website": null,
-        "github": null,
-        "details": "documents/academic/Student_Performance_Analysis_ADTA5820.docx"
-      },
-      "documentPath": "documents/academic/Student_Performance_Analysis_ADTA5820.docx",
-      "isExpandable": true
-    },
-    {
-      "id": "real-time-trading-system",
-      "title": "Real-Time Financial Analysis Trading System",
-      "year": "2024",
-      "category": "github",
-      "shortDescription": "Enterprise-grade distributed system for processing financial data with sub-second latency and microservices architecture.",
-      "detailedDescription": "<div class='project-metrics'><span class='metric'>Sub-second Latency</span><span class='metric'>Microservices</span><span class='metric'>Distributed Computing</span><span class='metric'>Financial Data</span></div><br/>Scalable platform designed for processing real-time financial market data and generating trading signals using distributed computing principles. Implemented microservices architecture with stream processing capabilities for handling high-frequency market data feeds. Built trading indicator computation engine with WebSocket-based real-time notifications for critical market events. Designed for enterprise deployment with focus on reliability, scalability, and low-latency requirements essential for financial trading applications.",
-      "media": {
-        "type": "image",
-        "src": "images/real-time-trading-system.png", 
-        "poster": null
-      },
-      "techStack": [
-        "Distributed Computing",
-        "Microservices",
-        "Stream Processing", 
-        "WebSockets",
-        "Financial APIs",
-        "Real-time Analytics",
-        "Trading Systems"
-      ],
-      "metrics": [
-        {"value": "<1s", "label": "Latency"},
-        {"value": "24/7", "label": "Uptime Target"},
-        {"value": "Real-time", "label": "Processing"}
-      ],
-      "links": {
-        "website": null,
-        "github": "https://github.com/deepak-rambarki/real-time-financial-analysis-trading-system",
-        "details": "#"
-      },
-      "isExpandable": true
-    },
-    {
-      "id": "financial-advisor-llm", 
-      "title": "Financial Advisor LLM with RAG Architecture",
-      "year": "2024",
-      "category": "github",
-      "shortDescription": "Advanced AI chatbot using 3-pipeline architecture with vector database, streaming, and LLMOps best practices.",
-      "detailedDescription": "<div class='project-metrics'><span class='metric'>3-Pipeline Architecture</span><span class='metric'>RAG System</span><span class='metric'>Vector Database</span><span class='metric'>LLMOps</span></div><br/>Comprehensive financial advisory chatbot implementing modern LLM deployment patterns with Retrieval-Augmented Generation (RAG). Features three-pipeline architecture: feature pipeline for data processing, training pipeline for model optimization, and inference pipeline for real-time responses. Utilizes Qdrant vector database for semantic search, Bytewax for streaming data processing, and PyTorch Transformers for LLM inference. Implements LLMOps best practices with Pydantic for data validation and WebSocket connections for real-time financial advisory interactions.",
-      "media": {
-        "type": "image",
-        "src": "images/financial-advisor-llm.png",
-        "poster": null
-      },
-      "techStack": [
-        "Transformers",
-        "PyTorch", 
-        "Qdrant Vector DB",
-        "Bytewax",
-        "Pydantic",
-        "WebSocket",
-        "RAG Architecture"
-      ],
-      "metrics": [
-        {"value": "3", "label": "Pipeline Architecture"},
-        {"value": "RAG", "label": "AI System Type"},
-        {"value": "Real-time", "label": "Response Speed"}
-      ],
-      "links": {
-        "website": null,
-        "github": "https://github.com/deepak-rambarki/financial_advisor_llm",
-        "details": "#"
-      },
-      "isExpandable": true
-    },
-    {
-      "id": "fraud-detection-ml-system",
-      "title": "Fraud Detection Using Machine Learning",
-      "year": "2024", 
-      "category": "github",
-      "shortDescription": "AWS SageMaker-powered fraud detection system with supervised/unsupervised models and real-time inference API.",
-      "detailedDescription": "<div class='project-metrics'><span class='metric'>$898/month Architecture</span><span class='metric'>AWS SageMaker</span><span class='metric'>Real-time Inference</span><span class='metric'>XGBoost & RandomCutForest</span></div><br/>Enterprise-grade machine learning system deployed on AWS for real-time fraud detection in financial transactions. Combines supervised learning (XGBoost) with unsupervised anomaly detection (RandomCutForest) to handle imbalanced datasets effectively. Implements complete MLOps pipeline with SageMaker for model training and deployment, Kinesis for streaming data ingestion, and Lambda functions for serverless processing. Features REST API deployment via API Gateway with comprehensive cost analysis and regulatory compliance considerations.",
-      "media": {
-        "type": "image",
-        "src": "images/fraud-detection-ml.png",
-        "poster": null
-      },
-      "techStack": [
-        "AWS SageMaker",
-        "XGBoost",
-        "RandomCutForest", 
-        "Kinesis",
-        "Lambda",
-        "API Gateway",
-        "MLOps"
-      ],
-      "metrics": [
-        {"value": "$898", "label": "Monthly Cost"},
-        {"value": "2", "label": "ML Models"},
-        {"value": "REST", "label": "API Type"}
-      ],
-      "links": {
-        "website": null,
-        "github": "https://github.com/deepak-rambarki/fraud-detection-using-machine-learning", 
-        "details": "#"
-      },
-      "isExpandable": true
-    },
-    {
-      "id": "local-data-lakehouse",
-      "title": "Local Data Lakehouse Architecture",
-      "year": "2024",
-      "category": "github",
-      "shortDescription": "Complete data lakehouse implementation using Docker with MinIO, Apache Iceberg, and Trino for modern data architecture.",
-      "detailedDescription": "<div class='project-metrics'><span class='metric'>Docker Architecture</span><span class='metric'>Apache Iceberg</span><span class='metric'>S3-Compatible Storage</span><span class='metric'>ACID Transactions</span></div><br/>Modern data lakehouse architecture designed for local development and testing, implementing industry-standard open table formats. Features MinIO for S3-compatible object storage, Apache Iceberg for schema evolution and ACID transaction support, and Trino as the distributed SQL query engine. Includes Hive Metastore with MariaDB backend for metadata management. Provides cost-effective alternative to cloud data warehouses while maintaining enterprise-level capabilities for data engineering experimentation and development.",
-      "media": {
-        "type": "image", 
-        "src": "images/local-data-lakehouse.png",
-        "poster": null
-      },
-      "techStack": [
-        "Docker",
-        "MinIO", 
-        "Apache Iceberg",
-        "Trino",
-        "Hive Metastore",
-        "MariaDB",
-        "Data Lake Architecture"
-      ],
-      "metrics": [
-        {"value": "5", "label": "Core Services"},
-        {"value": "ACID", "label": "Transaction Support"},
-        {"value": "Local", "label": "Deployment"}
-      ],
-      "links": {
-        "website": null,
-        "github": "https://github.com/deepak-rambarki/local-data-lakehouse",
-        "details": "#"
-      },
-      "isExpandable": true
-    },
-    {
-      "id": "dashboard-mock-sales",
-      "title": "Mock Sales Analytics Dashboard",
-      "year": "2024",
-      "category": "github", 
-      "shortDescription": "Professional BI dashboard with Python Dash featuring 4 visualizations, 6 KPIs, and full ETL pipeline with normalized database.",
-      "detailedDescription": "<div class='project-metrics'><span class='metric'>4 Visualizations</span><span class='metric'>6 KPI Indicators</span><span class='metric'>ETL Pipeline</span><span class='metric'>Data Warehouse</span></div><br/>Business Intelligence dashboard showcasing data engineering and visualization capabilities using Python Dash and Plotly. Implements complete data pipeline from extraction through normalization to data warehouse storage with SQLite backend. Features interactive dropdowns for dynamic filtering, geographic performance monitoring, and profitability analysis across multiple business dimensions. Demonstrates full-stack data engineering skills including database design, ETL processing, and modern web-based dashboard development for business stakeholders.",
-      "media": {
-        "type": "image",
-        "src": "images/dashboard-mock-sales.png",
-        "poster": null
-      },
-      "techStack": [
-        "Python",
-        "Dash",
-        "Plotly", 
-        "SQLite",
-        "Pandas",
-        "ETL Pipelines",
-        "Business Intelligence"
-      ],
-      "metrics": [
-        {"value": "4", "label": "Visualizations"},
-        {"value": "6", "label": "KPI Indicators"}, 
-        {"value": "100%", "label": "Interactive"}
-      ],
-      "links": {
-        "website": null,
-        "github": "https://github.com/deepak-rambarki/dashboard_dash_mock_sales",
-        "details": "#"
-      },
-      "isExpandable": true
-    },
-    {
-      "id": "stock-analysis-dashboard",
-      "title": "Real-Time Stock Market Analysis Dashboard",
-      "year": "2024",
-      "category": "github",
-      "shortDescription": "Full-stack Power BI application with Financial Modeling Prep API integration for real-time market data and correlation analysis.",
-      "detailedDescription": "<div class='project-metrics'><span class='metric'>Real-time API Integration</span><span class='metric'>Power BI</span><span class='metric'>Candlestick Charts</span><span class='metric'>Correlation Analysis</span></div><br/>Comprehensive stock market analysis platform integrating Financial Modeling Prep API with Power BI for real-time market insights. Features automated data refresh mechanisms, candlestick chart visualizations, and advanced correlation analysis for investment decision support. Implements DAX calculations for financial metrics and historical performance tracking. Demonstrates end-to-end data pipeline development from API consumption to interactive financial dashboard creation, providing actionable insights for investment portfolio management.",
-      "media": {
-        "type": "image",
-        "src": "images/stock-analysis-dashboard.png",
-        "poster": null
-      },
-      "techStack": [
-        "Power BI",
-        "Financial Modeling Prep API",
-        "DAX",
-        "Python",
-        "Financial Data", 
-        "Real-time Processing",
-        "Investment Analytics"
+        "Production Analytics",
+        "Quality Control"
       ],
       "metrics": [
         {"value": "Real-time", "label": "Data Updates"},
-        {"value": "API", "label": "Data Source"},
-        {"value": "Financial", "label": "Domain Focus"}
+        {"value": "Multiple", "label": "Data Sources"},
+        {"value": "Interactive", "label": "Dashboard Type"}
       ],
       "links": {
         "website": null,
-        "github": "https://github.com/deepak-rambarki/stock-analysis",
-        "details": "#"
+        "github": null,
+        "details": null
+      },
+      "isExpandable": true
+    },
+    {
+      "id": "lean-six-sigma-implementation",
+      "title": "Lean Six Sigma Green Belt Implementation & Process Improvement",
+      "year": "2024",
+      "category": "portfolio",
+      "shortDescription": "DMAIC methodology application with statistical analysis achieving quantified process improvements and waste reduction.",
+      "detailedDescription": "<div class='project-metrics'><span class='metric'>DMAIC Methodology</span><span class='metric'>Statistical Analysis</span><span class='metric'>Process Improvement</span><span class='metric'>Green Belt Certified</span></div><br/>Comprehensive Lean Six Sigma Green Belt implementation project applying DMAIC (Define, Measure, Analyze, Improve, Control) methodology for systematic process improvement. Conducted detailed process mapping and value stream analysis to identify waste and inefficiencies in manufacturing workflows. Applied statistical analysis including hypothesis testing and ANOVA to validate improvement opportunities. Implemented 5S methodology, Kaizen events, and Kanban systems for continuous improvement culture. Developed control charts and monitoring systems to sustain improvements. Project demonstrates quantified results in cycle time reduction, quality improvements, and cost savings through data-driven decision making and lean manufacturing principles.",
+      "media": {
+        "type": "image",
+        "src": "images/lean-six-sigma-project.png",
+        "poster": null
+      },
+      "techStack": [
+        "DMAIC Methodology",
+        "Statistical Analysis",
+        "Process Mapping",
+        "Value Stream Mapping",
+        "5S Implementation",
+        "Kaizen Events",
+        "Control Charts"
+      ],
+      "metrics": [
+        {"value": "Green Belt", "label": "Certification Level"},
+        {"value": "DMAIC", "label": "Methodology"},
+        {"value": "Quantified", "label": "Results"}
+      ],
+      "links": {
+        "website": null,
+        "github": null,
+        "details": null
+      },
+      "isExpandable": true
+    },
+    {
+      "id": "cad-design-portfolio",
+      "title": "Advanced CAD Design Portfolio & Technical Drawings",
+      "year": "2023",
+      "category": "portfolio",
+      "shortDescription": "Comprehensive CAD portfolio featuring complex assemblies, GD&T applications, and production-ready designs across multiple platforms.",
+      "detailedDescription": "<div class='project-metrics'><span class='metric'>Multiple CAD Platforms</span><span class='metric'>Complex Assemblies</span><span class='metric'>GD&T Applications</span><span class='metric'>Production Ready</span></div><br/>Comprehensive CAD design portfolio showcasing advanced mechanical design capabilities across SolidWorks, CATIA V5, and Fusion 360 platforms. Features complex mechanical assemblies including automotive components, production tooling, and precision manufacturing fixtures. Applied Geometric Dimensioning and Tolerancing (GD&T) principles for manufacturing specifications and quality control. Developed technical drawings with complete dimensioning, material specifications, and assembly instructions. Portfolio includes Tesla production station components, medical device assemblies from UT Arlington research, and Zeiss precision measurement fixtures. Demonstrates proficiency in design for manufacturing (DFM) principles and production optimization.",
+      "media": {
+        "type": "image",
+        "src": "images/cad-design-portfolio.png",
+        "poster": null
+      },
+      "techStack": [
+        "SolidWorks",
+        "CATIA V5",
+        "Autodesk Fusion 360",
+        "GD&T Standards",
+        "Technical Drawings",
+        "Assembly Design",
+        "Design for Manufacturing"
+      ],
+      "metrics": [
+        {"value": "3", "label": "CAD Platforms"},
+        {"value": "Multiple", "label": "Complex Assemblies"},
+        {"value": "Production", "label": "Ready Designs"}
+      ],
+      "links": {
+        "website": null,
+        "github": null,
+        "details": null
+      },
+      "isExpandable": true
+    },
+    {
+      "id": "fmea-root-cause-analysis",
+      "title": "FMEA & Root Cause Analysis for Manufacturing Optimization",
+      "year": "2023",
+      "category": "portfolio",
+      "shortDescription": "Systematic FMEA implementation and root cause analysis for tooling optimization, reliability improvements, and downtime reduction.",
+      "detailedDescription": "<div class='project-metrics'><span class='metric'>FMEA Methodology</span><span class='metric'>Root Cause Analysis</span><span class='metric'>Reliability Improvement</span><span class='metric'>Downtime Reduction</span></div><br/>Comprehensive FMEA (Failure Mode and Effects Analysis) implementation project focusing on manufacturing process optimization and reliability improvement. Conducted systematic analysis of potential failure modes in tooling and material handling processes. Applied structured root cause analysis techniques including fishbone diagrams, 5-Why analysis, and statistical correlation studies. Developed risk priority numbers (RPN) and implemented corrective actions for high-priority failure modes. Project resulted in improved equipment reliability, reduced unplanned downtime, and enhanced product quality. Established monitoring and control systems to prevent recurrence of identified failure modes. Demonstrates proficiency in quality engineering methodologies essential for Process Engineer roles.",
+      "media": {
+        "type": "image",
+        "src": "images/fmea-analysis.png",
+        "poster": null
+      },
+      "techStack": [
+        "FMEA Methodology",
+        "Root Cause Analysis",
+        "Statistical Analysis",
+        "Risk Assessment",
+        "Quality Control",
+        "Process Optimization",
+        "Reliability Engineering"
+      ],
+      "metrics": [
+        {"value": "Multiple", "label": "Failure Modes Analyzed"},
+        {"value": "Improved", "label": "Reliability"},
+        {"value": "Reduced", "label": "Downtime"}
+      ],
+      "links": {
+        "website": null,
+        "github": null,
+        "details": null
       },
       "isExpandable": true
     }
@@ -496,34 +402,34 @@
   
   "education": [
     {
-      "degree": "Master in Advanced Data Analytics",
-      "institution": "University of North Texas",
-      "location": "Denton, TX", 
-      "year": "Aug 2023 – May 2025",
-      "logo": "images/university-north-texas-logo.png"
+      "degree": "Master of Science in Industrial Engineering",
+      "institution": "University of Texas at Arlington",
+      "location": "Arlington, TX",
+      "year": "August 2022 - May 2025",
+      "logo": "images/ut-arlington-logo.png"
     },
     {
-      "degree": "Bachelor in Mechanical Engineering Honors",
-      "institution": "Lovely Professional University",
-      "location": "Punjab, India",
-      "year": "Aug 2017 – Aug 2021",
-      "logo": "images/lovely-professional-university-logo.png"
+      "degree": "Bachelor of Engineering in Mechanical Engineering",
+      "institution": "K.S Institute of Technology",
+      "location": "Bangalore, India",
+      "year": "July 2017 - August 2021",
+      "logo": "images/ks-institute-logo.png"
     }
   ],
   
   "siteConfig": {
-    "siteTitle": "Deepak Rambarki - Senior Data Engineer",
+    "siteTitle": "Arjun Prasad - Industrial Engineering Graduate",
     "favicon": null,
     "themeColors": {
-      "primaryRed": "#2E86AB",
-      "lightRed": "#3498DB", 
-      "darkRed": "#1B4F72",
-      "textDark": "#2C3E50",
+      "primaryRed": "#E31937",
+      "lightRed": "#FF6B35",
+      "darkRed": "#1B365D",
+      "textDark": "#2C2C2C",
       "textLight": "#6c757d",
-      "bgLight": "#f8f9fa",
+      "bgLight": "#f5f5f5",
       "white": "#ffffff"
     },
-    "domain": "deepak-rambarki.com",
+    "domain": "arjunprasad.com",
     "googleAnalytics": null
   }
 }
