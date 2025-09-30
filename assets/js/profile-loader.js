@@ -594,24 +594,13 @@
 
     function getSkillsCategories() {
         return [
-            { key: 'programming', label: 'Programming & Scripting' },
-            { key: 'bigDataTechnologies', label: 'Big Data Technologies' },
-            { key: 'dataProcessing', label: 'Data Processing Frameworks' },
-            { key: 'cloudPlatforms', label: 'Cloud Platforms & Services' },
-            { key: 'databases', label: 'Databases & Storage' },
-            { key: 'dataWarehousing', label: 'Data Warehousing & Modeling' },
-            { key: 'etlTools', label: 'ETL & Integration Tools' },
-            { key: 'dataGovernance', label: 'Data Quality & Governance' },
-            { key: 'versionControl', label: 'Version Control & Collaboration' },
-            { key: 'containerization', label: 'Containerization & DevOps' },
-            { key: 'monitoring', label: 'Monitoring & Logging' },
-            { key: 'visualization', label: 'Visualization & Reporting' },
-            { key: 'methodologies', label: 'Methodologies' },
-            { key: 'softSkills', label: 'Professional Skills' },
-            // Legacy fallbacks (in case present)
-            { key: 'toolsAndDevOps', label: 'Tools & DevOps' },
-            { key: 'analyticsTools', label: 'Analytics & Data' },
-            { key: 'integrationTools', label: 'Integration & Tools' },
+            { key: 'coreExpertise', label: 'Core Expertise' },
+            { key: 'industryFourPointZero', label: 'Industry 4.0 Technologies' },
+            { key: 'qualityMetrologyExpertise', label: 'Quality & Metrology Expertise' },
+            { key: 'advancedDesignSimulation', label: 'Advanced Design & Simulation' },
+            { key: 'automationManufacturing', label: 'Automation & Manufacturing' },
+            { key: 'professionalCertifications', label: 'Professional Certifications' },
+            { key: 'strategicCapabilities', label: 'Strategic Capabilities' },
             { key: 'otherTools', label: 'Productivity Tools' }
         ];
     }

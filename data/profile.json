@@ -83,80 +83,73 @@
   ],
   
   "skills": {
-    "processOptimization": [
-      "Lean Six Sigma Green Belt",
-      "Kaizen Implementation",
-      "Kanban Systems",
-      "5S Methodology",
-      "Process Mapping",
-      "Value Stream Mapping",
-      "Inventory Optimization",
-      "ERP Systems (SAP)"
+    "coreExpertise": [
+      "Tesla Automation Development & Tool Engineering",
+      "Lean Six Sigma Green Belt (Certified: jVSC7p5awP)",
+      "CATIA V5 CAD Software (Tesla Production Components)",
+      "Cross-Functional Supply Chain Optimization (80% Time Reduction)",
+      "FMEA & Root Cause Analysis Implementation",
+      "Production Station Component Design (Dies & Idle Tables)",
+      "Process Optimization & Efficiency Improvements",
+      "Kaizen & 5S Methodology Implementation"
     ],
-    "designSoftware": [
-      "SolidWorks (Advanced)",
-      "CATIA V5",
-      "Autodesk Fusion 360",
-      "Ansys Workbench",
-      "AutoCAD",
-      "Zeiss Reverse Engineering Software",
-      "GD&T (Geometric Dimensioning & Tolerancing)"
+    "industryFourPointZero": [
+      "Microsoft Power BI (Certified: DDB24020)",
+      "Advanced Excel & Statistical Analysis",
+      "Manufacturing KPI Dashboard Development",
+      "Hypothesis Testing (ANOVA) & Optimization Modeling",
+      "SAP ERP Integration & Customer Demand Alignment",
+      "Manufacturing Data Analytics & Process Intelligence",
+      "Smart Manufacturing Process Integration",
+      "IoT-Ready Manufacturing Analytics"
     ],
-    "manufacturingQuality": [
-      "FMEA (Failure Mode and Effects Analysis)",
-      "Root Cause Analysis",
-      "Total Quality Management",
-      "Zeiss Inspect",
-      "Zeiss 3D Scanners",
-      "Reverse Engineering",
-      "Production Planning",
-      "Tooling Design"
+    "qualityMetrologyExpertise": [
+      "Carl Zeiss Reverse Engineering Software (20+ Projects)",
+      "Zeiss 3D Scanners & Zeiss Inspect Systems",
+      "GD&T (AUKOM Level Certified)",
+      "Total Quality Management & 100% SAP Alignment",
+      "Advanced Metrology & 3D Scanning",
+      "Reverse Engineering Applications",
+      "Quality Control Systems & Inspection Reliability",
+      "Manufacturing Process Validation"
     ],
-    "dataAnalytics": [
-      "Microsoft Power BI",
-      "Excel (Advanced)",
-      "Statistical Analysis",
-      "Hypothesis Testing (ANOVA)",
-      "Optimization Modeling",
-      "Manufacturing KPIs",
-      "OEE Calculations",
-      "Quality Metrics"
+    "advancedDesignSimulation": [
+      "SolidWorks (Advanced) + 3D Modeling Integration",
+      "Ansys Workbench Simulation & Performance Optimization",
+      "Autodesk Fusion 360 + AutoCAD",
+      "Smart Wheelchair Cushion Design (30% Success Rate Improvement)",
+      "Product Design Process Streamlining",
+      "Design Validation & Finite Element Analysis",
+      "Production-Ready Design Development",
+      "Manufacturing Feasibility Analysis"
     ],
-    "automationTechnology": [
-      "Industrial Automation",
-      "Process Control Systems",
-      "Material Handling",
-      "Production Line Optimization",
-      "Workflow Automation",
-      "Manufacturing Execution Systems",
-      "Cycle Time Analysis"
+    "automationManufacturing": [
+      "Industrial Automation & Process Control",
+      "Material Handling Process Design",
+      "Production Line Optimization & Reliability",
+      "Workflow Automation & Cycle Time Analysis",
+      "Manufacturing Execution Systems (MES) Integration",
+      "Equipment Effectiveness (OEE) Optimization",
+      "Tooling Design & Manufacturing Process Automation",
+      "Cross-Functional Team Coordination"
     ],
-    "projectManagement": [
-      "Cross-Functional Collaboration",
-      "Technical Documentation",
-      "Customer Training",
-      "Pre-Sales Support",
-      "Project Planning",
-      "Stakeholder Communication",
-      "Team Leadership"
-    ],
-    "certifications": [
-      "Lean Six Sigma Green Belt",
-      "Manufacturing Certificate (UT Arlington)",
-      "Decision Analytics Certificate (UT Arlington)",
-      "Data Analytics Course using Power BI",
+    "professionalCertifications": [
+      "Lean Six Sigma Green Belt (jVSC7p5awP)",
+      "Manufacturing Certificate - University of Texas at Arlington",
+      "Decision Analytics Certificate - University of Texas at Arlington",
+      "Data Analytics Course using Power BI (DDB24020)",
       "AUKOM Level GD&T Training Series",
       "Autodesk CAD/CAM/CAE for Mechanical Engineering"
     ],
-    "professionalSkills": [
-      "Problem Solving",
-      "Attention to Detail",
-      "Analytical Thinking",
-      "Technical Communication",
-      "Continuous Improvement",
-      "Customer Service",
-      "Training & Development",
-      "Process Documentation"
+    "strategicCapabilities": [
+      "International Technology Transfer (India-US)",
+      "Customer Training & Technical Presentations (30+ Demos)",
+      "Multi-cultural Manufacturing Environments",
+      "Technical Documentation & Process Standardization",
+      "Stakeholder Communication & Project Leadership",
+      "Continuous Learning & Professional Development",
+      "Problem-Solving & Analytical Thinking",
+      "Value Stream Mapping & Inventory Optimization"
     ]
   },
   
